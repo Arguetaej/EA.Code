@@ -1,0 +1,19 @@
+body{font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+h1{background:teal; color: white}
+h2.teal {background:teal; color: white; font-family:arial}
+
+table, th, td {border:1px solid teal;}
+th.teal {color:white; background-color:teal; text-align:center;}
+th.white  {color:teal; text-align:center;}
+td { text-align:center; width:200px: }
+tr.teal {color:white; background-color:teal; text-align:center; }
+tr.white {color:teal; text-align:center; border:1px solid teal }
+#grad1 {
+  height: 1200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(teal, white, teal); /* Standard syntax (must be last) */
+}
+
+td.padding {padding:25px;}
+button {background-color: green; font-family: impact; color:white; font-size: 20px}

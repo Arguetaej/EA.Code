@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+<title>Al's Hardware Equipment Sales </title>
+<style>
+	body{font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+	}
+	h1{background:teal; color: white}
+h2.teal {background:teal; color: white; font-family:arial}
+
+	table, th, td {border:1px solid teal;}
+	th.teal {color:white; background-color:teal; text-align:center;}
+	th.white  {color:teal; text-align:center;}
+	td { text-align:center; width:200px: }
+	tr.teal {color:white; background-color:teal; text-align:center; }
+	tr.white {color:teal; text-align:center; border:1px solid teal }
+	#grad1 {
+	  height: 1200px;
+	  background-color: red; /* For browsers that do not support gradients */
+	  background-image: linear-gradient(teal, white, teal); /* Standard syntax (must be last) */
+	}
+
+	td.padding {padding:25px;}
+	button {background-color: green; color:white}
+
+</style>
+
+
+</head>
+<body>
+
+		<center>
+<h1>Al's Tool And Equipment Rentals</h1>
+
+<img src="al's logo.png" alt="logo">
+<h3><br>
+Al's Tool And Equipment Sales is a family owned and operated business that has been serving the area for over 25 years.
+</h3>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<h2 class="teal">Al's has extended hours and SUNDAY returns!<h2>
+<br>
+<br>
+
+<table width="600">
+<tbody>
+
+	<th class="teal" colspan="2"><h2>Hours Of Operation</h2></th>
+	<tr class="white"> <td width=280px>Monday</td>  <td>6:00AM - 6:00PM</td></tr>
+	<tr class="teal">  <td>Tuesday</td> <td>6:00AM - 6:00PM</td></tr>
+	<tr class="white"> <td>Wednesday</td><td>6:00AM - 6:00PM</td></tr>
+	<tr class="teal">  <td>Thursday</td><td>6:00AM - 6:00PM</td></tr>
+	<tr class="white"> <td>Friday</td><td>6:00AM - 6:00PM</td></tr>
+	<tr class="teal">  <td>Saturday</td><td>10:00AM - 4:00PM</td></tr>
+	<tr class="white"> <td>Sunday</td><td style="color:red;">CLOSED* </td></tr>
+	<tr class="teal">  <td>Holidays</td><td>CLOSED</td></tr>
+
+	<tr>
+	<td colspan="2" style="color:red;">*NOTE- open for rental returns only</td>
+
+	</tr>
+
+</tbody>
+</table>
+
+<br>
+<br>
+<br>
+
+<h2 class="teal">Al's prices are UNBEATABLE!</h2>
+
+<table width="600">
+
+	<tbody>
+
+	<th class="white" colspan="3"><h2>Tools And Equipment Sale Prices</h2></th>
+
+<tr class="teal">
+		<td>
+		<li>Miter and Compound Saws
+		</li>
+		<br>
+	  <img src="saw.jpg" alt="miter compound saw">
+		<br><forms>
+      <br>
+      $250.00 each<br>
+      Quantity: <input type ="text" id="quantityA" value="1">
+		<br>
+		<button onclick="itemA()">Add To Cart</button>
+	</forms>
+	<br>
+
+
+		</td>
+		<br>
+
+		<td>
+		<li>Ladders</li>
+	  <br><img src="ladder.jpg" alt="folding ladder">
+	  <br><forms>
+      <br>
+      $75.00 each<br>
+      Quantity: <input type ="text" id="quantityB" value="1">
+			<br>
+        <button onclick="itemB()">Add To Cart</button>
+    </forms>
+	</td>
+
+		<td>
+		<li>Carpet Cleaners
+		</li>
+		<br><img src="carpet cleaner.jpg" alt="carpet cleaner">
+		<br>
+		<forms>
+      <br>
+      $175.00 each<br>
+      Quantity: <input type ="text" id="quantityC" value="1">
+			<br>
+        <button onclick="itemC()">Add To Cart</button>
+    </forms>
+	</td>
+</tr>
+
+<tr class="white">
+		<td>
+			<li>Air Compressors
+			</li>
+			<br><img src="air compressor.jpg" alt="air compressor">
+			<br>
+			<forms>
+	      <br>
+	      $150.00 each<br>
+	      Quantity: <input type ="text" id="quantityD" value="1">
+				<br>
+	        <button onclick="itemD()">Add To Cart</button>
+	    </forms>
+		</td>
+
+		<td>
+			<li>Generators
+			</li>
+			<br><img src="generator.jpg" alt="generator">
+			<br><forms>
+	      <br>
+	      $195.00 each<br>
+	      Quantity: <input type ="text" id="quantityE" value="1">
+				<br>
+	        <button onclick="itemE()">Add To Cart</button>
+	    </forms>
+		</td>
+
+		<td>
+		<li>Augers
+		</li>
+			<br><img src="auger.jpg" alt="auger">
+		<br><forms>
+      <br>
+      $95.00 each<br>
+      Quantity: <input type ="text" id="quantityF" value="1">
+			<br>
+        <button onclick="itemF()">Add To Cart</button>
+    </forms>
+		</td>
+	</tr>
+
+<tr class="teal">
+	<td>
+		<li>Tillers
+		</li>
+		<br><img src="tiller.jpg" alt="tiller">
+		<br><forms>
+      <br>
+      $125.00 each<br>
+      Quantity: <input type ="text" id="quantityG" value="1">
+			<br>
+        <button onclick="itemG()">Add To Cart</button>
+    </forms>
+	</td>
+
+	<td>
+		<li>Lawn Mowers
+		</li>
+		<br><img src="lawn mower.jpg" alt="lawn mower">
+		<br>
+		<forms>
+		<br>
+		$85.00 each<br>
+		Quantity: <input type ="text" id="quantityH" value="1">
+		<br>
+			<button onclick="itemH()">Add To Cart</button>
+	</forms>
+	</td>
+
+	<td>
+		<li>Pumps
+		</li>
+		<br><img src="pump.jpg" alt="pump">
+		<br><forms>
+    <br>
+      $165.00 each<br>
+      Quantity: <input type ="text" id="quantityI" value="1">
+			<br>
+        <button onclick="itemI()">Add To Cart</button>
+    </forms>
+	</td>
+</tr>
+
+
+
+</tbody>
+</table>
+<forms>
+	<br>
+	<button onclick="addCart()">Check Out Now</button>
+</forms>
+<p id="cart"></p>
+<br>
+TOTAL AMOUNT:<p id="tot"></p>
+<br>
+<br>
+<h2 class="teal">Al's accepts MANY forms of payment!<h2>
+
+<table>
+<tr bgcolor="white">
+	<td ><img src="payments_accepted.png" alt-"forms or payments accepted" height="120" width="240">
+	</td>
+</tr>
+</table>
+
+<br>
+
+
+
+</center>
+</div>
+<script>
+var cartForParty =
+{
+
+};
+
+
+function itemA(){
+	cartForParty.miters=250.00*document.getElementById("quantityA").value
+};
+
+function itemB(){
+	cartForParty.ladders=75.00*document.getElementById("quantityB").value
+};
+
+
+function itemC(){
+	cartForParty.ccleaner=175.00*document.getElementById("quantityC").value
+};
+
+function itemD(){
+	cartForParty.acompressor=150.00*document.getElementById("quantityD").value
+};
+
+function itemE(){
+	cartForParty.generator=195.00*document.getElementById("quantityE").value
+};
+
+function itemF(){
+	cartForParty.Auger=95.00*document.getElementById("quantityF").value
+};
+
+function itemG(){
+	cartForParty.tiller=125.00*document.getElementById("quantityG").value
+};
+
+function itemH(){
+	cartForParty.lmower=85.00*document.getElementById("quantityH").value
+};
+
+function itemI(){
+	cartForParty.pump=165.00*document.getElementById("quantityI").value
+};
+
+
+
+
+//bear-hunt
+
+
+
+
+
+function addCart(){
+let prices =Object.values(cartForParty);
+
+let length = Object.keys(cartForParty).length;
+let totalSum = 0;
+
+for(var i=0; i<length; i++){totalSum+= prices[i];
+
+document.getElementById("tot").innerHTML= "$" + totalSum;}
+
+
+
+console.log(totalSum)
+
+};
+
+</script>
+
+
+
+
+
+Webpage created by Edie J. Argueta
+</body></html>
